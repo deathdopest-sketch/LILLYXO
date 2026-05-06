@@ -1,0 +1,14 @@
+FROM python:3.12-slim
+
+RUN pip install --no-cache-dir fastapi "uvicorn[standard]"
+
+WORKDIR /app
+COPY vita_server.py .
+
+ENV VITA_DIR=/vita \
+    VITA_MODEL_PATH=/vita_models/lilly_nnn.vita \
+    VITA_PORT=8766
+
+EXPOSE 8766
+
+CMD ["python", "vita_server.py"]

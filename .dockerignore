@@ -1,0 +1,24 @@
+node_modules/
+*.log
+*.log.*
+.git/
+# .env is needed in container — keep it
+
+# Game data is volume-mounted at runtime
+ZomB_Data/
+
+# Video files are volume-mounted at runtime
+Zomb videos/
+Lilly xo/
+
+# Dev / source artifacts not needed in image
+DeathAIv7/
+original/
+tests/
+docs/
+.claude/
+
+# Lilly runtime data — volume-mounted
+Lilly_Data/
+lilly_boot.log*
+zomb_boot.log*

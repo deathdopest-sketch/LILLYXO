@@ -1,0 +1,59 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Secrets — NEVER commit these ─────────────────────────────────────────────
+.env
+config/local.js
+
+# ── Runtime data (user memory, chat logs, backups) ───────────────────────────
+Lilly_Data/
+
+# ── Log files ─────────────────────────────────────────────────────────────────
+*.log
+logs/
+lilly_ws_*.jsonl
+lilly_ws_*.log
+
+# ── One-off patch scripts (already applied, not needed in repo) ───────────────
+enhance_ws.js
+enhance_ws2.js
+enhance_ws3.js
+enhance_ws4.js
+fix_ws.py
+fix_ws2.py
+
+# ── Backup files ─────────────────────────────────────────────────────────────
+*.bak
+*.emoji_backup
+
+# ── Debug / scratch files ─────────────────────────────────────────────────────
+ws_fix.txt
+.claude/
+
+# ── Compiled / large model binaries ──────────────────────────────────────────
+vita_models/
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Puppeteer browser cache ───────────────────────────────────────────────────
+.local-chromium/
+.cache/
+
+# ── Runtime screenshots and debug images ─────────────────────────────────────
+bc_*.png
+debug_*.png
+screenshot_*.png
+
+# ── Webcam video assets (large binaries, keep local) ─────────────────────────
+Lilly_Video/
+webcam/
+*.mp4
+*.webm
+*.mov

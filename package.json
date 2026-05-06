@@ -1,0 +1,24 @@
+{
+  "name": "lilly-bot-v2",
+  "version": "2.0.0",
+  "description": "Lilly Bot v2.0 — Human Infiltrator with VITA NNN Social Intelligence",
+  "main": "Lilly_Bot.js",
+  "scripts": {
+    "start": "node Lilly_Bot.js",
+    "dev": "node Lilly_Bot.js",
+    "lint": "eslint Lilly_Bot.js Lilly_Memory.js Lilly_ChatHarvester.js config/",
+    "lint:fix": "eslint --fix Lilly_Bot.js Lilly_Memory.js Lilly_ChatHarvester.js config/"
+  },
+  "author": "Death (DBounceBoom)",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^24.22.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
