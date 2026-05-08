@@ -2452,11 +2452,16 @@ class LillyBot {
       );
     });
 
+    // Clear any existing StumbleChat session so we always log in as Lilly, not a cached account
+    const cdpSession = await page.target().createCDPSession();
+    await cdpSession.send('Network.clearBrowserCookies');
+    await cdpSession.detach();
+
     await page.goto('https://stumblechat.com/login', { waitUntil: 'networkidle2', timeout: 30000 });
 
     const currentUrl = page.url();
     if (!currentUrl.includes('login')) {
-      console.log(`✅ Already logged in (redirected to: ${currentUrl})`);
+      console.log(`✅ Already logged in as Lilly (redirected to: ${currentUrl})`);
       return page;
     }
 
