@@ -843,9 +843,10 @@ class LillyBot {
       for (const [name, entry] of Object.entries(IDENTITY_REGISTRY)) {
         if (entry.handles.size > 0) identities[name] = [...entry.handles];
       }
-      const dir = path.dirname(this.storagePaths.handles);
+      const filePath = this.memoryFiles?.handles || path.join(this.storageDir, 'Active_Memory', 'lilly_handles.json');
+      const dir = path.dirname(filePath);
       if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-      fs.writeFileSync(this.storagePaths.handles, JSON.stringify({ _version: 2, identities }, null, 2), 'utf8');
+      fs.writeFileSync(filePath, JSON.stringify({ _version: 2, identities }, null, 2), 'utf8');
     } catch (e) {
       console.log(`ΓÜá∩╕Å [Identity] saveHandles failed: ${e.message}`);
     }
@@ -854,8 +855,9 @@ class LillyBot {
   /** Load persisted handle bindings from lilly_handles.json on startup. */
   loadHandles() {
     try {
-      if (!fs.existsSync(this.storagePaths.handles)) return;
-      const data = JSON.parse(fs.readFileSync(this.storagePaths.handles, 'utf8'));
+      const filePath = this.memoryFiles?.handles || path.join(this.storageDir, 'Active_Memory', 'lilly_handles.json');
+      if (!fs.existsSync(filePath)) return;
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       if (!data || !data.identities) return;
       let count = 0;
       for (const [name, handles] of Object.entries(data.identities)) {
@@ -7784,14 +7786,41 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
   // FREE VOICE — spontaneous interjection when not directly triggered
   // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
   _shouldFreeVoice() {
-    if (!this.aiAvailable) return false;
-    if (this._afkState && Date.now() < this._afkState.until) return false; // stay quiet while AFK
+    if (this._afkState && Date.now() < this._afkState.until) return false;
     if (Date.now() - this._lastFreeVoiceTime < 3 * 60 * 1000) return false;
-    return Math.random() < 0.12;  // 12% chance when cooldown has cleared
+    // AI offline: still allow occasional canned interjections, just less often
+    if (!this.aiAvailable) return Math.random() < 0.06;
+    return Math.random() < 0.12;
   }
 
   async _freeVoiceInterjection(roomName, triggerContent) {
-    if (!this.aiAvailable) return;
+    if (!this.aiAvailable) {
+      // AI offline — drop a canned spontaneous line so the room knows Lilly is alive
+      const offlineInterjections = [
+        'okay why is it so quiet in here',
+        'what are we all thinking about rn',
+        'someone say something interesting i\'m bored',
+        'the vibe in here is giving me something i can\'t name yet',
+        'i keep zoning out today idk what\'s wrong with me',
+        'ngl i\'m lowkey in my head rn',
+        'okay new topic, what\'s everyone been listening to',
+        'anyone else feel like this week is moving weird',
+        'just gonna sit here and vibe i guess',
+        'i have thoughts but i don\'t know how to start them',
+        'the room energy feels different today. idk.',
+        'okay chat me or i\'ll just keep talking to myself',
+        'i\'m here if anyone wants to actually talk about something',
+        'this silence is giving me anxiety ngl 💀',
+        'y\'all i need stimulation',
+      ];
+      const line = this._pickAvoidingRecent(offlineInterjections, this._recentFreeVoiceTopics, 5);
+      this._lastFreeVoiceTime = Date.now();
+      if (!this._recentFreeVoiceTopics) this._recentFreeVoiceTopics = [];
+      this._recentFreeVoiceTopics.push(line.split(' ').slice(0, 3).join(' '));
+      if (this._recentFreeVoiceTopics.length > 5) this._recentFreeVoiceTopics.shift();
+      await this.queueMessage(roomName, line);
+      return;
+    }
     // Build a snapshot — strip ZomB messages and any bot-narrator content from context
     const history = this.getConversationHistory(roomName);
     const selfNickLower = (this._selfNick || CONFIG.BOT_NICK || 'lilly').toLowerCase();
