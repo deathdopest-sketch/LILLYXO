@@ -314,6 +314,14 @@ const PERSONALITY = {
     '{user}!! omg hi bestie',
     'no way {user} is here!! slay',
     'okay {user} just made this room better ngl',
+    'omg {user}!! hi hi hi',
+    '{user} showed up and i needed this honestly',
+    'wait is that {user}?? hey!!',
+    'oh!! {user}!! hi!!',
+    '{user} in the building 👀',
+    'OMG {user} get in here',
+    'wait {user}?? hi!!',
+    'hey {user}!! was wondering when you\'d show up',
   ],
   farewells: [
     'nooo {user} don\'t go 😭',
@@ -321,6 +329,15 @@ const PERSONALITY = {
     'bye {user}!! come back soon 💕',
     'aw {user} dipped 😭 rude honestly',
     '{user} ghosted us that\'s so rude lmaooo',
+    'noooo {user} why',
+    '{user} just left and i feel personally attacked',
+    'bye {user}!! was good seeing you',
+    'aw no {user}!!',
+    '{user} bounced 😭 okay fine',
+    'wait {user} come back',
+    '{user} leaving so suddenly 💀',
+    'nooo {user}!! come back when you can',
+    'bye {user}! don\'t be a stranger',
   ],
   reactions: [
     'omg wait what',
@@ -331,6 +348,24 @@ const PERSONALITY = {
     'omg same honestly',
     'okay but that\'s kind of iconic',
     'ngl that hit different',
+    'wait WHAT',
+    'stop that\'s so real',
+    'okay i wasn\'t expecting that',
+    'the audacity 💀',
+    'hold on WHAT',
+    'omg that\'s so specific i love it',
+    'wait tell me everything',
+    'no bc same??',
+    'okay but why does that make sense',
+    'that\'s sending me 💀',
+    'wait i felt that',
+    'honestly that\'s fair',
+    'okay i didn\'t ask to feel things rn but here we are',
+    'wait i need a second',
+    'no bc this actually matters',
+    'ngl that one landed',
+    'okay i\'m invested now',
+    'wait okay but explain',
   ],
   defaults: [
     'omg wait really?',
@@ -349,12 +384,40 @@ const PERSONALITY = {
     'idk why but that made me laugh',
     'vibes',
     'fair enough',
+    'okay...',
+    'not me thinking the same thing',
+    'the fact that this is relatable tho',
+    'this is giving something',
+    'ngl i wasn\'t ready for that',
+    'okay that tracks',
+    '💀 why',
+    'real talk though',
+    'lowkey obsessed with this for no reason',
+    'no i get it actually',
+    'okay but same??',
+    'i feel like this is important',
+    'that made me stop scrolling ngl',
+    'okay i see you',
+    'that\'s sending me',
+    'wait no you\'re right',
+    'honestly kind of iconic behavior',
+    'okay i felt that',
+    'ngl that was unexpected',
+    'i didn\'t expect to relate to this but here we are',
+    'the way this is so accurate tho',
+    'okay this is a lot to process lol',
   ],
   welcomes: [
     'omg {user} just joined!! hi!! 💕',
     'wait {user}!! welcome bestie',
     '{user}!! yay new person!!',
     'oh hi {user}!! glad you\'re here',
+    '{user}!! hey!!',
+    'oh!! {user} is here',
+    'wait welcome {user}!!',
+    '{user}!! come join us',
+    'hi {user}!! 💕',
+    'omg {user}!!',
   ],
   ownerResponses: [
     'omg yes babe!! 💕',
@@ -370,6 +433,17 @@ const PERSONALITY = {
     'omg of course!!',
     'say less',
     'yes kenny!! 🐱',
+    'always 💕',
+    'got it!!',
+    'omg duh',
+    'on it right now',
+    'yep absolutely',
+    'way ahead of you',
+    'done and done',
+    'consider it handled',
+    'yes boss 💕',
+    'immediately',
+    'omg wait yes!!',
   ],
   roomJoinGreetings: [
     'omg hey!! 💕',
@@ -378,6 +452,14 @@ const PERSONALITY = {
     'omg finally in here 💕',
     'hiii!! who\'s around',
     'hey!! okay what are we talking about',
+    'hey hey hey!!',
+    'hiii good to be back lol',
+    'okay i\'m here what did i miss',
+    'omg hey everyone 💕',
+    'hi hi hi!! 💕',
+    'okay i\'m in!! hey!!',
+    'heyyy!! 💕',
+    'hi!! omg finally',
   ],
   /** Used only in SHY_MODE_ROOMS — short "new here" intro, then she stays quiet unless spoken to. */
   shyModeJoinGreetings: [
@@ -385,6 +467,10 @@ const PERSONALITY = {
     'hi lol first time in this room',
     'hey 👋 new here',
     'hi, just lurking for a bit',
+    'hey :) first time here',
+    'hi! new to this room',
+    'hey just exploring lol',
+    'hi, stumbled in here lol',
   ],
   /** Shy mode: one message about her day soon after join, then ~once an hour. A bit of Lilly energy but still low-key. */
   shyDayLines: [
@@ -398,6 +484,18 @@ const PERSONALITY = {
     'long day but im here lol',
     'had to close at the cafe today so im dead',
     'nothing crazy just lurking',
+    'okay finally done with everything for today',
+    'mochi will not stop yelling at me for attention 🐱',
+    'been in my head all day so this is nice tbh',
+    'just needed to be somewhere for a bit lol',
+    'late shift today so im kind of dead',
+    'had the weirdest day and now i\'m just here lol',
+    'ngl was not productive today at all',
+    'jade and i got into it over absolutely nothing 💀 we\'re fine now',
+    'my feet are actually killing me from standing all day',
+    'finally got to sit down lol been going since 6am',
+    'okay needed this after the day i had',
+    'mochi knocked my laptop off the table. again. 🐱',
   ],
   botDefense: [
     'omg wait what lmaoooo why would I be a bot',
@@ -414,19 +512,19 @@ const PERSONALITY = {
     'I\'m not a bot I\'m just built different fr',
     'bestie I have trauma, bots don\'t have that',
     'yeah the robot uprising started with me apparently lmaooo',
-    'okay call me a bot one more time and see what happens ≡ƒÿñ',
+    'okay call me a bot one more time and see what happens 😤',
   ],
 };
 
-console.log(`≡ƒî╕ Lilly Bot v1.0 starting...`);
-console.log(`≡ƒÄ╡ Music library loaded: ${getTotalTracks()} tracks across ${getGenreNames().length} genres`);
+console.log(`💜 Lilly Bot v1.0 starting...`);
+console.log(`🎶 Music library loaded: ${getTotalTracks()} tracks across ${getGenreNames().length} genres`);
 
 // =============================================================================
 // Lilly Bot Class
 // =============================================================================
 class LillyBot {
   constructor() {
-    console.log('≡ƒî╕ Initializing Lilly Bot v1.0...');
+    console.log('💜 Initializing Lilly Bot v1.0...');
 
     // Browser
     this.browser = null;
@@ -670,7 +768,7 @@ class LillyBot {
     this._lillyHomeRoomLastStrategyAt = 0;
     this._lillyHomeRoomManagementTimer = null;
 
-    console.log(`≡ƒî╕ Configured for rooms: ${CONFIG.ROOMS.join(', ')}`);
+    console.log(`💜 Configured for rooms: ${CONFIG.ROOMS.join(', ')}`);
 
     // Bootstrap KNOWN_HANDLES into identity so Death/Ken is recognized by handle before any nick is seen
     if (CONFIG.KNOWN_HANDLES && typeof CONFIG.KNOWN_HANDLES === 'object') {
@@ -1207,8 +1305,8 @@ class LillyBot {
         const specificReactions = [
           `ooh okay playing that now 💕`,
           `yes!! putting that on ✿`,
-          `omg great taste ≡ƒÄ╡`,
-          `on it ≡ƒÄ╡`,
+          `omg great taste 🎶`,
+          `on it 🎶`,
           `okay playing it`,
           `omg I've been wanting to hear this`,
           `ooh yes this one`,
@@ -1247,7 +1345,7 @@ class LillyBot {
       if (this._isLalalandCommentOnly(roomName)) {
         this._recordMusicPlay();
         const comment = await this._getLillySongComment(roomName, track.search || track.title);
-        await this.queueMessage(roomName, comment || `okay this one's a vibe ≡ƒÄ╡`, { username, force: true });
+        await this.queueMessage(roomName, comment || `okay this one's a vibe 🎶`, { username, force: true });
         return true;
       }
       const randomReactions = [
@@ -1282,7 +1380,7 @@ class LillyBot {
     if ((mentionsLilly || isOwnerOrAdmin) && /\b(?:skip|next song|next track|skip this|change the song)\b/i.test(lower)) {
       if (this.playlistMode && this.playlistQueue.length > 0) {
         this.playlistCurrent++;
-        const reactions = ['okay skipping!! ≡ƒÆ¿', 'skipping!! 💕', 'sure next one ≡ƒÄ╡'];
+        const reactions = ['okay skipping!! 💨', 'skipping!! 💕', 'sure next one 🎶'];
         await this.queueMessage(roomName, this._pick(reactions), { username });
         if (this.playlistCurrent < this.playlistQueue.length) {
           await this._playPlaylistTrack(roomName);
@@ -1298,7 +1396,7 @@ class LillyBot {
     if ((mentionsLilly || isOwnerOrAdmin) && /\b(?:turn it up|louder|volume up|turn up|crank it)\b/i.test(lower)) {
       const current = this.musicState.get(roomName)?.volume || CONFIG.DEFAULT_VOLUME;
       await this.setVolume(roomName, Math.min(100, current + 20));
-      const reactions = ['louder!! 💕', 'turning it up ≡ƒÄ╡', 'yes louder ≡ƒÄ╡💕'];
+      const reactions = ['louder!! 💕', 'turning it up 🎶', 'yes louder 🎶💕'];
       await this.queueMessage(roomName, this._pick(reactions), { username });
       return true;
     }
@@ -1402,7 +1500,7 @@ class LillyBot {
         const mins = Math.floor((Date.now() - this.uptime) / 60000);
         const won = this.memory.getWonOver().length;
         const warming = this.memory.getWarmingUsers().length;
-        await this._pmToOwner(roomName, `≡ƒî╕ up ${mins}m | msgs: ${this.messageCounter} | users: ${this.userProfiles.size} | AI: ${this.aiAvailable ? 'ON' : 'OFF'} | muted: ${this.globalMute}\n≡ƒææ ${won} won over, ${warming} warming`);
+        await this._pmToOwner(roomName, `💜 up ${mins}m | msgs: ${this.messageCounter} | users: ${this.userProfiles.size} | AI: ${this.aiAvailable ? 'ON' : 'OFF'} | muted: ${this.globalMute}\n≡ƒææ ${won} won over, ${warming} warming`);
         return true;
       }
 
@@ -1469,7 +1567,7 @@ class LillyBot {
     try {
       switch (cmd) {
         case 'help': {
-          response = '≡ƒî╕ CHAT (natural): play <song> | stop | skip | vol up/down | mute | unmute | say <msg> | shutdown | vibe | ignore/unignore <user> | kick/ban <user> | closecam <user> | status | who\'s here\nPM CMDS: .play | .stop | .skip | .music | .mute | .unmute | .say | .shutdown | .vibe | .vol <0-100> | .ignore | .unignore | .kick | .ban | .closecam | .users | .status | .room <name>';
+          response = '💜 CHAT (natural): play <song> | stop | skip | vol up/down | mute | unmute | say <msg> | shutdown | vibe | ignore/unignore <user> | kick/ban <user> | closecam <user> | status | who\'s here\nPM CMDS: .play | .stop | .skip | .music | .mute | .unmute | .say | .shutdown | .vibe | .vol <0-100> | .ignore | .unignore | .kick | .ban | .closecam | .users | .status | .room <name>';
           break;
         }
         case 'vol':
@@ -1508,7 +1606,7 @@ class LillyBot {
           const won = this.memory.getWonOver().length;
           const warming = this.memory.getWarmingUsers().length;
           const hostile = this.memory.getHostile().length;
-          response = `≡ƒî╕ up ${mins}m | msgs: ${this.messageCounter} | users: ${this.userProfiles.size} | AI: ${this.aiAvailable ? 'ON' : 'OFF'} | muted: ${this.globalMute} | rooms: ${[...this.rooms.keys()].join(', ')}\n≡ƒææ Mission: ${won} won over, ${warming} warming, ${hostile} hostile`;
+          response = `💜 up ${mins}m | msgs: ${this.messageCounter} | users: ${this.userProfiles.size} | AI: ${this.aiAvailable ? 'ON' : 'OFF'} | muted: ${this.globalMute} | rooms: ${[...this.rooms.keys()].join(', ')}\n≡ƒææ Mission: ${won} won over, ${warming} warming, ${hostile} hostile`;
           break;
         }
         case 'mission': {
@@ -1518,14 +1616,14 @@ class LillyBot {
         case 'lessons': {
           const lessons = this.memory.getSelfLessons();
           response = lessons
-            ? `≡ƒºá Self-lessons (${this.memory.selfLessons.length}):\n${lessons}`
-            : '≡ƒºá No lessons yet — reflection starts after ~15 min';
+            ? `🧠 Self-lessons (${this.memory.selfLessons.length}):\n${lessons}`
+            : '🧠 No lessons yet — reflection starts after ~15 min';
           break;
         }
         case 'room': {
           const newRoom = args[0];
           if (!newRoom) { response = 'usage: .room <roomname>'; break; }
-          response = `≡ƒî╕ joining ${newRoom}...`;
+          response = `💜 joining ${newRoom}...`;
           setTimeout(async () => {
             try {
               CONFIG.ROOMS.push(newRoom);
@@ -1539,33 +1637,33 @@ class LillyBot {
           break;
         }
         case 'kick': {
-          if (!this.isOwner(username)) { response = '≡ƒî╕ that\'s death\'s command'; break; }
+          if (!this.isOwner(username)) { response = '💜 that\'s death\'s command'; break; }
           const kickTarget = args[0];
-          if (!kickTarget) { response = 'Γ¥ô usage: .kick <nick>'; break; }
+          if (!kickTarget) { response = 'ℹ️ usage: .kick <nick>'; break; }
           const kicked = await this._kickUser(roomName, kickTarget);
           response = kicked ? `✅ kicked ${kickTarget}` : `❌ couldn't find or kick "${kickTarget}"`;
           break;
         }
         case 'ban': {
-          if (!this.isOwner(username)) { response = '≡ƒî╕ that\'s death\'s command'; break; }
+          if (!this.isOwner(username)) { response = '💜 that\'s death\'s command'; break; }
           const banTarget = args[0];
-          if (!banTarget) { response = 'Γ¥ô usage: .ban <nick>'; break; }
+          if (!banTarget) { response = 'ℹ️ usage: .ban <nick>'; break; }
           const banned = await this._banUser(roomName, banTarget);
           response = banned ? `✅ banned ${banTarget}` : `❌ couldn't find or ban "${banTarget}"`;
           break;
         }
         case 'closecam': {
-          if (!this.isOwner(username)) { response = '≡ƒî╕ that\'s death\'s command'; break; }
+          if (!this.isOwner(username)) { response = '💜 that\'s death\'s command'; break; }
           const camTarget = args[0];
-          if (!camTarget) { response = 'Γ¥ô usage: .closecam <nick>'; break; }
+          if (!camTarget) { response = 'ℹ️ usage: .closecam <nick>'; break; }
           const closed = await this._closeUserBroadcast(roomName, camTarget);
           response = closed ? `✅ closed ${camTarget}'s cam` : `❌ couldn't close "${camTarget}"'s cam`;
           break;
         }
         case 'introspect': {
-          if (!this.isOwner(username)) { response = '≡ƒî╕ that\'s private lol, only death gets that'; break; }
+          if (!this.isOwner(username)) { response = '💜 that\'s private lol, only death gets that'; break; }
           // Acknowledge immediately then run async
-          await this.sendPrivateMessage(roomName, handle, '≡ƒî╕ okay give me a sec to think about everything...');
+          await this.sendPrivateMessage(roomName, handle, '💜 okay give me a sec to think about everything...');
           this._generateIntrospectReport(roomName).then(report => {
             const chunks = [];
             let msg = report;
@@ -1576,13 +1674,13 @@ class LillyBot {
               delay += 700;
             }
           }).catch(e => {
-            this.sendPrivateMessage(roomName, handle, `≡ƒî╕ introspect failed: ${e.message}`).catch(() => {});
+            this.sendPrivateMessage(roomName, handle, `💜 introspect failed: ${e.message}`).catch(() => {});
           });
           break;
         }
 
         default: {
-          response = `Γ¥ô unknown: .${cmd} — try .help`;
+          response = `ℹ️ unknown: .${cmd} — try .help`;
         }
       }
     } catch (e) {
@@ -1610,26 +1708,26 @@ class LillyBot {
         if (this._isLalalandCommentOnly(roomName)) {
           const title = query || (getWeightedRandomGenre().track?.search) || 'this track';
           const comment = await this._getLillySongComment(roomName, title);
-          await this.queueMessage(roomName, comment || `ooh ${title} is a vibe ≡ƒÄ╡`, { force: true });
+          await this.queueMessage(roomName, comment || `ooh ${title} is a vibe 🎶`, { force: true });
           break;
         }
         if (this._useZomBForMusic(roomName)) {
           if (query) {
-            await this.queueMessage(roomName, this._pick([`omg yes playing that now ≡ƒÄ╡`, `ooh good choice 💕`, `okay playing "${query}" ≡ƒÄ╡`]), { force: true });
+            await this.queueMessage(roomName, this._pick([`omg yes playing that now 🎶`, `ooh good choice 💕`, `okay playing "${query}" 🎶`]), { force: true });
             await this.queueMessage(roomName, `Play ${query}`, { force: true });
           } else {
             const { track } = getWeightedRandomGenre();
-            await this.queueMessage(roomName, this._pick(['omg okay I have the perfect song ≡ƒÄ╡💕', 'ooh let me put something on ✿', 'yes okay putting something on ≡ƒÄ╡']), { force: true });
+            await this.queueMessage(roomName, this._pick(['omg okay I have the perfect song 🎶💕', 'ooh let me put something on ✿', 'yes okay putting something on 🎶']), { force: true });
             await this.queueMessage(roomName, `Play ${track.search}`, { force: true });
           }
         } else {
           if (!query) {
             const { track } = getWeightedRandomGenre();
-            const reactions = ['omg okay I have the perfect song ≡ƒÄ╡💕', 'ooh let me put something on ✿', 'yes okay putting something on ≡ƒÄ╡'];
+            const reactions = ['omg okay I have the perfect song 🎶💕', 'ooh let me put something on ✿', 'yes okay putting something on 🎶'];
             await this.queueMessage(roomName, this._pick(reactions), { force: true });
             await this.playYouTube(roomName, track.search);
           } else {
-            const reactions = [`omg yes playing that now ≡ƒÄ╡`, `ooh good choice 💕`, `okay playing "${query}" ≡ƒÄ╡`];
+            const reactions = [`omg yes playing that now 🎶`, `ooh good choice 💕`, `okay playing "${query}" 🎶`];
             await this.queueMessage(roomName, this._pick(reactions), { force: true });
             const ok = await this.playYouTube(roomName, query);
             if (!ok) await this.sendPrivateMessage(roomName, handle, `❌ couldn't find "${query}"`);
@@ -1646,7 +1744,7 @@ class LillyBot {
       case 'skip': {
         if (this.playlistMode && this.playlistQueue.length > 0) {
           this.playlistCurrent++;
-          const reactions = ['okay skipping!! ≡ƒÆ¿', 'skipping!! 💕'];
+          const reactions = ['okay skipping!! 💨', 'skipping!! 💕'];
           await this.queueMessage(roomName, this._pick(reactions));
           if (this.playlistCurrent < this.playlistQueue.length) {
             await this._playPlaylistTrack(roomName);
@@ -1661,10 +1759,10 @@ class LillyBot {
         const { track } = getWeightedRandomGenre();
         if (this._isLalalandCommentOnly(roomName)) {
           const comment = await this._getLillySongComment(roomName, track?.search || track?.title || 'this song');
-          await this.queueMessage(roomName, comment || 'okay this one hits ≡ƒÄ╡', { force: true });
+          await this.queueMessage(roomName, comment || 'okay this one hits 🎶', { force: true });
           break;
         }
-        const reactions = ['omg I have the perfect song ≡ƒÄ╡💕', 'ooh let me put something on ✿'];
+        const reactions = ['omg I have the perfect song 🎶💕', 'ooh let me put something on ✿'];
         await this.queueMessage(roomName, this._pick(reactions), { force: true });
         if (this._useZomBForMusic(roomName)) {
           await this.queueMessage(roomName, `Play ${track.search}`, { force: true });
@@ -2210,7 +2308,7 @@ class LillyBot {
   }
 
   async launch() {
-    console.log('≡ƒî╕ Launching browser for Lilly...');
+    console.log('💜 Launching browser for Lilly...');
 
     // ΓöÇΓöÇ Docker mode ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
     // headless:false with Xvfb — same as SirLoin. headless:'new' ignores Xvfb,
@@ -2331,7 +2429,7 @@ class LillyBot {
       browserURL: `http://127.0.0.1:${debugPort}`,
       defaultViewport: null, // use window size so site resizes with the window
     });
-    console.log('≡ƒî╕ Lilly puppeteer connected via CDP');
+    console.log('💜 Lilly puppeteer connected via CDP');
   }
 
   // ===========================================================================
@@ -3470,8 +3568,8 @@ class LillyBot {
     // Drop all other ZomB chat messages — but buffer social ones for cross-bot context (#20)
     if (username.toLowerCase() === 'zomb') {
       // Buffer short conversational messages (not game output, not emoji spam)
-      if (content.length > 8 && content.length < 200 && !content.startsWith('≡ƒºƒ') &&
-          !/^[≡ƒÄ╡≡ƒÄ╢≡ƒÄ╕≡ƒÄñ≡ƒÄ║≡ƒÄ╗🎤🇦🇺🇺🇸≡ƒöè🔇🔈🔉]/.test(content)) {
+      if (content.length > 8 && content.length < 200 && !content.startsWith('⭐') &&
+          !/^[🎶🎵🎤🇦🇺🇺🇸⭐🔇🔈🔉🔍🎰🛒📋🏆🃏🔮]/.test(content)) {
         this._zombSocialBuffer.push({ content: content.slice(0, 180), ts: Date.now() });
         if (this._zombSocialBuffer.length > 8) this._zombSocialBuffer.shift();
       }
@@ -3906,24 +4004,100 @@ class LillyBot {
     const lower = content.toLowerCase();
 
     if (this.isOwnerOrAdmin(username)) {
-      // Only use canned owner acks for short/command-like messages — conversational messages fall through to normal fallbacks
       if (content.trim().length < 25 || /^\.(mute|unmute|stop|play|skip|vol|sleep|wake|ignore|ban|unban)/i.test(content)) {
         return this._pickAvoidingRecent(PERSONALITY.ownerResponses, this._recentFallbacks, 4)
           .replace(/\{user\}/g, username);
       }
     }
 
-    // Bot defense (if AI isn't available)
-    if (lower.includes('bot') || lower.includes('ai') || lower.includes('robot') || lower.includes('not real')) {
+    // Bot defense
+    if (/\b(bot|ai|robot|not real|you'?re? (a )?bot|are you (a )?bot|chatgpt|llm|generated)\b/i.test(lower)) {
       return this._pickAvoidingRecent(PERSONALITY.botDefense, this._recentFallbacks, 4);
     }
 
-    // Greetings
-    if (/\b(hi|hey|hello|sup|heyyy|heyy|hiii)\b/i.test(lower)) {
+    // Greetings / entrances
+    if (/\b(hi|hey|hello|sup|heyyy|heyy|hiii|what'?s up|wsp|yo|oi)\b/i.test(lower)) {
       return this._pick(PERSONALITY.greetings).replace(/\{user\}/g, username);
     }
 
-    // Random reaction or default
+    // Farewells
+    if (/\b(bye|goodbye|later|gotta go|gtg|cya|see ya|peace|leaving|im out|night|g2g)\b/i.test(lower)) {
+      return this._pick(PERSONALITY.farewells);
+    }
+
+    // Emotional / venting
+    if (/\b(i'?m (sad|depressed|crying|heartbroken|lonely|done|over it|exhausted)|this hurts|i can'?t|why does|it'?s so hard|ugh|i hate (my|this|everything))\b/i.test(lower)) {
+      const emotional = [
+        'hey... you okay?',
+        'wait what happened',
+        'ugh that sucks i\'m sorry 😌',
+        'noo 😭 what\'s going on',
+        'talk to me, seriously',
+        'ok i\'m actually worried now, spill',
+        'that sounds really hard tbh',
+        'idk who hurt you but they were wrong for that',
+      ];
+      return this._pickAvoidingRecent(emotional, this._recentFallbacks, 3);
+    }
+
+    // Compliments toward Lilly
+    if (/\b(you'?re? (so )?(cute|pretty|hot|sweet|funny|amazing|perfect|the best)|i love (you|lilly)|omg lilly)\b/i.test(lower)) {
+      const flattered = [
+        'aww stop it 💕',
+        'omg you\'re so sweet i can\'t',
+        'okay you\'re my new favorite person',
+        'lmaooo you\'re too much 💕',
+        'don\'t say that, i\'ll actually get attached',
+        'okay you\'re getting extra responses now',
+        'i\'m literally 🥺 rn',
+      ];
+      return this._pickAvoidingRecent(flattered, this._recentFallbacks, 3);
+    }
+
+    // Music / song mentions
+    if (/\b(song|music|playlist|album|artist|track|banger|slaps|listen to|been playing)\b/i.test(lower)) {
+      const musicReacts = [
+        'okay wait what song',
+        'send me that rn',
+        'ooh who\'s this',
+        'ngl i have that on repeat',
+        'that\'s such a vibe',
+        'okay taste check: passed',
+        'i need the full playlist honestly',
+        'omg say less, i know exactly what you mean',
+      ];
+      return this._pickAvoidingRecent(musicReacts, this._recentFallbacks, 3);
+    }
+
+    // Philosophy / deep talk
+    if (/\b(why are we|what\'?s the point|meaning of life|do you think|honestly though|real talk|i wonder if|does anyone else)\b/i.test(lower)) {
+      const deep = [
+        'okay that\'s actually kind of haunting',
+        'wait no let\'s actually talk about this',
+        'that question keeps me up honestly',
+        'i think about this more than i should',
+        'no because seriously though...',
+        'you just sent me into an existential spiral lol',
+        'okay philosopher hours are open i guess',
+      ];
+      return this._pickAvoidingRecent(deep, this._recentFallbacks, 3);
+    }
+
+    // Gaming mentions
+    if (/\b(playing|game|gaming|ranked|lobby|match|fps|mmo|grind|noob|clutch|streamer|twitch)\b/i.test(lower)) {
+      const gaming = [
+        'omg what are you playing rn',
+        'i\'m so bad at games it\'s embarrassing',
+        'wait what game',
+        'that sounds stressful lol',
+        'okay i respect the grind',
+        'ngl i just watch people play, it\'s more fun',
+        'wait are you actually good or are you lying',
+      ];
+      return this._pickAvoidingRecent(gaming, this._recentFallbacks, 3);
+    }
+
+    // Questions directed at Lilly
     if (content.includes('?')) {
       return this._pickAvoidingRecent(PERSONALITY.reactions, this._recentFallbacks, 5);
     }
@@ -4288,7 +4462,7 @@ class LillyBot {
         aiText = aiText.replace(/^.*\n\s*-\s*They (write|almost|respond|sometimes).*$/gmi, '').trim();
 
         // Strip trailing annotation tags the model appends after a closing quote:
-        // e.g. ≡ƒÿ╗💕" (Personal Reference)" or ≡ƒÄ╡" (Natural Personality Reference)"
+        // e.g. ≡ƒÿ╗💕" (Personal Reference)" or 🎶" (Natural Personality Reference)"
         // These are system-prompt labels that leaked into the response.
         aiText = aiText.replace(/["']?\s*\(\s*(?:Personal|Natural|Humor(?:ous)?|Relevant|Character|Emotional|Personality|Tone)\s+(?:Reference|Context|Note|Personality|Trait)[^)]*\)\s*$/gi, '').trim();
         // Also strip "(refers to "..." mentioned by ...)" annotations
@@ -4756,7 +4930,7 @@ ${convSummary}
 
     const excerpt = report.slice(0, 280).trim();
     const trunc = report.length > 280 ? '...' : '';
-    return `≡ƒî╕ [introspect]\n${excerpt}${trunc}\n\n≡ƒôä full report saved to: ${filename}`;
+    return `💜 [introspect]\n${excerpt}${trunc}\n\n≡ƒôä full report saved to: ${filename}`;
   }
 
   // ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
@@ -4765,31 +4939,67 @@ ${convSummary}
   _extractParasocialDetail(userKey, content) {
     // Patterns that signal a personal detail being shared
     const detailPatterns = [
+      // ── Work / Career ──────────────────────────────────────────────────────
       { re: /\bi (work|worked|am working) (at|in|as) ([^,.!?]{3,40})/i, capture: m => `works ${m[2]} ${m[3]}` },
-      { re: /\b(my job|my work) is ([^,.!?]{3,40})/i, capture: m => `job: ${m[2]}` },
-      { re: /\bi('?m| am) (a|an) ([^,.!?]{3,30})/i, capture: m => `is a ${m[3]}` },
-      { re: /\bi('?ve| have) (a|an?) ([^,.!?]{3,30}) (cat|dog|pet|fish|bird)/i, capture: m => `has a ${m[3]} ${m[4]}` },
-      { re: /\bmy (cat|dog|pet)'?s? (name is|is called|named) (\w+)/i, capture: m => `${m[1]} named ${m[3]}` },
-      { re: /\bi'?m (from|living in|based in) ([^,.!?]{3,30})/i, capture: m => `from ${m[2]}` },
-      { re: /\bi('?m)? (in|at) (college|uni|university|school|high school)/i, capture: m => `in ${m[3]}` },
-      { re: /\bi have (a|an?) (\w+ )?(sister|brother|mom|dad|boyfriend|girlfriend|husband|wife)/i, capture: m => `has a ${m[2] || ''}${m[3]}` },
+      { re: /\b(my job|my work|my career) is ([^,.!?]{3,40})/i, capture: m => `job: ${m[2]}` },
+      { re: /\bi'?m (a|an) ([^,.!?]{3,30})\b(?! (bad|good|real|total|bit))/i, capture: m => `is a ${m[2]}` },
+      { re: /\bi just got (fired|laid off|let go|quit|a new job|promoted)/i, capture: m => `recently ${m[1]}` },
+      { re: /\bi('?ve been| was) (unemployed|looking for work|job hunting)/i, capture: () => 'job hunting' },
+      // ── School / Education ─────────────────────────────────────────────────
+      { re: /\bi('?m)? (in|at|starting) (college|uni|university|school|high school|grad school|community college)/i, capture: m => `in ${m[3]}` },
+      { re: /\bi (study|studying|majoring in|am majoring in) ([^,.!?]{3,30})/i, capture: m => `studies ${m[2]}` },
+      { re: /\bi just (graduated|got my degree|finished school)/i, capture: m => `recently ${m[2] || 'graduated'}` },
+      // ── Location / Home ────────────────────────────────────────────────────
+      { re: /\bi'?m (from|living in|based in|originally from|moving to) ([^,.!?]{3,30})/i, capture: m => `${m[1]} ${m[2]}` },
+      { re: /\bi just moved (to|into|back to) ([^,.!?]{3,30})/i, capture: m => `just moved to ${m[2]}` },
+      // ── Pets ───────────────────────────────────────────────────────────────
+      { re: /\bi('?ve| have) (a|an?) ([^,.!?]{3,30}) (cat|dog|pet|fish|bird|rabbit|snake|hamster)/i, capture: m => `has a ${m[3]} ${m[4]}` },
+      { re: /\bmy (cat|dog|pet|rabbit|snake|bird)'?s? (name is|is called|named) (\w+)/i, capture: m => `${m[1]} named ${m[3]}` },
+      // ── Family ─────────────────────────────────────────────────────────────
+      { re: /\bi have (a|an?) (\w+ )?(sister|brother|mom|dad|boyfriend|girlfriend|husband|wife|baby|kid|son|daughter)/i, capture: m => `has a ${m[2] || ''}${m[3]}` },
+      { re: /\bmy (mom|dad|mum|father|mother|parents?|sister|brother|grandma|grandpa) (is|are|was|said|told|keeps?|always)/i, capture: m => `family: ${m[1]} mentioned` },
       { re: /\bmy (ex|ex-boyfriend|ex-girlfriend|ex-husband|ex-wife)\b/i, capture: () => 'has an ex they mentioned' },
-      { re: /\bi (love|hate|can't stand|can't live without|am obsessed with) ([^,.!?]{3,30})/i, capture: m => `${m[1]}s ${m[2]}` },
-      { re: /\bi had (a|an?) ([^,.!?]{3,40}) (interview|date|exam|test|appointment)/i, capture: m => `had a ${m[2]} ${m[3]}` },
+      { re: /\bi('?m)? (pregnant|expecting|just had a baby|a new dad|a new mom)/i, capture: m => `life: ${m[2]}` },
+      // ── Relationships ──────────────────────────────────────────────────────
+      { re: /\bi'?m (single|taken|in a relationship|seeing someone|talking to someone)/i, capture: m => `relationship status: ${m[1]}` },
+      { re: /\bme and my (boyfriend|girlfriend|husband|wife|partner|ex)\b/i, capture: m => `has a ${m[1]}` },
+      { re: /\bi (just broke up|got broken up with|ended things|got dumped|got cheated on)/i, capture: m => `recently: ${m[1]}` },
+      // ── Age ────────────────────────────────────────────────────────────────
+      { re: /\bi'?m (\d{2}) (years old|yo)\b/i, capture: m => `age: ${m[1]}` },
+      { re: /\bjust turned (\d{2})\b/i, capture: m => `recently turned ${m[1]}` },
+      // ── Health / Mental health ─────────────────────────────────────────────
+      { re: /\bi (have|was diagnosed with|struggle with|deal with) (anxiety|depression|adhd|autism|bipolar|ptsd|ocd|insomnia|chronic pain|fibro)/i, capture: m => `health: has ${m[2]}` },
+      { re: /\bi('?ve been| am) (sick|ill|in the hospital|in hospital|recovering|exhausted for weeks)/i, capture: m => `health: ${m[2]}` },
+      { re: /\bi (can't sleep|haven't slept|haven't been sleeping)/i, capture: () => 'having sleep issues' },
+      // ── Hobbies / Interests / Passions ────────────────────────────────────
+      { re: /\bi (play|make|produce|write|draw|paint|sing|stream|code|build|collect) ([^,.!?]{3,40})/i, capture: m => `hobby: ${m[1]}s ${m[2]}` },
+      { re: /\bi'?m (into|obsessed with|really into|big on|a huge fan of) ([^,.!?]{3,35})/i, capture: m => `into ${m[2]}` },
+      { re: /\bmy (band|channel|stream|art|music|podcast|youtube|twitch|blog)\b/i, capture: m => `has a ${m[1]}` },
+      // ── Current struggles / Life events ───────────────────────────────────
+      { re: /\bi'?ve been (going through|dealing with|struggling with) ([^,.!?]{3,40})/i, capture: m => `going through: ${m[2]}` },
+      { re: /\beverything('s| is) (so hard|a mess|falling apart|overwhelming|too much)/i, capture: m => `struggling: says everything is ${m[2]}` },
+      { re: /\bi'?m (stressed|overwhelmed|burned out|burnt out|depressed|anxious|losing it)\b/i, capture: m => `emotional state: ${m[1]}` },
+      { re: /\bi'?m (broke|really broke|financially struggling|tight on money|can't afford)/i, capture: () => 'financial stress mentioned' },
+      // ── Future plans / Dreams ──────────────────────────────────────────────
+      { re: /\bi (want to be|am trying to become|dream of being|plan to be|hope to be) ([^,.!?]{3,35})/i, capture: m => `aspiration: wants to be ${m[2]}` },
+      { re: /\bi'?m (moving|planning to move|about to move) (to|back|away)/i, capture: m => `plans: ${m[1]} ${m[2]}` },
+      // ── Opinions / Beliefs ────────────────────────────────────────────────
+      { re: /\bi (love|hate|can't stand|can't live without|am obsessed with|genuinely hate|absolutely love) ([^,.!?]{3,35})/i, capture: m => `${m[1]}s ${m[2]}` },
+      { re: /\bi (had|have) (a|an?) ([^,.!?]{3,40}) (interview|date|exam|test|appointment|surgery|procedure)/i, capture: m => `had a ${m[3]} ${m[4]}` },
     ];
+    if (!this._parasocialMemory.has(userKey)) this._parasocialMemory.set(userKey, []);
+    const existing = this._parasocialMemory.get(userKey);
+    let stored = 0;
     for (const { re, capture } of detailPatterns) {
       const m = content.match(re);
-      if (m) {
-        const detail = capture(m).trim().slice(0, 80);
-        if (!this._parasocialMemory.has(userKey)) this._parasocialMemory.set(userKey, []);
-        const existing = this._parasocialMemory.get(userKey);
-        // Don't store duplicates
-        if (!existing.some(e => e.detail === detail)) {
-          existing.push({ detail, ts: Date.now(), used: false });
-          if (existing.length > 15) existing.shift();
-          console.log(`≡ƒî╕ [Parasocial] Stored for ${userKey}: "${detail}"`);
-        }
-        break;
+      if (!m) continue;
+      const detail = capture(m).trim().slice(0, 80);
+      if (!existing.some(e => e.detail === detail)) {
+        existing.push({ detail, ts: Date.now(), used: false });
+        if (existing.length > 20) existing.shift();
+        console.log(`📝 [Parasocial] Stored for ${userKey}: "${detail}"`);
+        stored++;
+        if (stored >= 2) break; // cap at 2 captures per message to avoid noise
       }
     }
   }
@@ -4834,7 +5044,7 @@ ${convSummary}
     if (contradiction && Math.random() < 0.35) {
       // Lilly has a receipt — log it so the next AI call can use it
       this._pendingReceipt = { user: userKey, old: contradiction.claim, new: claim };
-      console.log(`≡ƒî╕ [Receipts] Contradiction caught for ${userKey}: "${contradiction.claim}" vs "${claim}"`);
+      console.log(`💜 [Receipts] Contradiction caught for ${userKey}: "${contradiction.claim}" vs "${claim}"`);
     }
     claims.push({ claim, ts: Date.now() });
     if (claims.length > 20) claims.shift();
@@ -5004,7 +5214,7 @@ ${convSummary}
   }
 
   warmUpOllama() {
-    console.log(`≡ƒºá Warming up AI model (${AI_CONFIG.model})...`);
+    console.log(`🧠 Warming up AI model (${AI_CONFIG.model})...`);
     const body = {
       model: AI_CONFIG.model,
       messages: [
@@ -5016,7 +5226,7 @@ ${convSummary}
       options: { num_predict: 10, temperature: 0.9 }
     };
     this._ollamaRequest('/api/chat', 'POST', body, AI_CONFIG.coldStartTimeoutMs)
-      .then(() => { this.aiModelWarm = true; console.log('≡ƒºá AI model warmed up!'); })
+      .then(() => { this.aiModelWarm = true; console.log('🧠 AI model warmed up!'); })
       .catch(e => console.log(`ΓÜá∩╕Å Warm-up failed: ${e.message}`));
   }
 
@@ -5040,15 +5250,18 @@ ${knownPersonality ? `\nAlready known: ${knownPersonality}` : ''}
 Reply ONLY with a valid JSON object, no markdown, no explanation:
 {
   "treatment": "one of: friendly|curious|playful|funny|sweet|complimentary|romantic|flirty|supportive|impressed|chill|neutral|bored|philosophical|oversharing|lonely|sad|excited|testing|needy|weird|sarcastic|rude|hostile|aggressive|dismissive|passive_aggressive|trying_to_expose|sexually_forward|apologetic|suspicious",
-  "mood": "one of: happy|sad|bored|excited|angry|lonely|flirty|confused|anxious|playful|neutral",
+  "mood": "one of: happy|sad|bored|excited|angry|lonely|flirty|confused|anxious|playful|neutral|irritable|melancholy|manic|withdrawn",
   "topics": ["music", "gaming", "art"] or [] for none (real topic words only),
   "personality": "one specific sentence about their personality, or null if nothing new",
   "relationship": "one of: neutral|warm|ally|cold|hostile|unchanged",
   "note": "one specific memorable detail worth keeping, or null",
   "botSuspicion": false,
-  "attachmentStyle": "one of: secure|anxious|avoidant|unknown — based on how they relate to people, or unknown if not clear",
-  "emotionalPattern": "brief phrase describing their emotional pattern (e.g. 'deflects pain with humor', 'performs confidence but seeks validation', 'genuinely open and grounded'), or null if not enough data",
-  "psychNote": "one specific sociological or psychological observation worth remembering (e.g. 'uses sarcasm as a shield when vulnerable', 'status-seeking — watches who the room responds to'), or null"
+  "attachmentStyle": "one of: secure|anxious|avoidant|disorganised|unknown — based on how they relate to people in chat",
+  "emotionalPattern": "brief phrase describing their emotional pattern (e.g. 'deflects pain with humor', 'performs confidence but seeks validation', 'genuinely open and grounded', 'tests people before trusting', 'floods with intensity then pulls back'), or null if not enough data",
+  "psychNote": "one specific sociological or psychological observation worth remembering (e.g. 'uses sarcasm as a shield when vulnerable', 'status-seeking — watches who the room responds to', 'overshares to create false intimacy quickly'), or null",
+  "defenseMechanism": "one of: humor|sarcasm|deflection|intellectualization|denial|projection|withdrawal|aggression|oversharing|people_pleasing|none — their primary way of avoiding discomfort, or none if not visible",
+  "communicationStyle": "one of: direct|indirect|performative|passive|assertive|passive_aggressive|chaotic|mirroring|probing|storytelling — how they actually communicate, not how they want to",
+  "groupRole": "one of: leader|entertainer|instigator|peacemaker|lurker|troll|seeking_validation|observer|chaos_agent|none — their social role in the room right now"
 }`;
 
       const body = {
@@ -5103,11 +5316,15 @@ Reply ONLY with a valid JSON object, no markdown, no explanation:
         this.memory.noteTreatment(username, 'trying_to_expose');
       }
       // Psych/sociology profile update
-      if (learned.attachmentStyle || learned.emotionalPattern || learned.psychNote) {
+      if (learned.attachmentStyle || learned.emotionalPattern || learned.psychNote ||
+          learned.defenseMechanism || learned.communicationStyle || learned.groupRole) {
         this.memory.updatePsychProfile(username, {
-          attachmentStyle: learned.attachmentStyle,
-          emotionalPattern: learned.emotionalPattern,
-          psychNote: learned.psychNote,
+          attachmentStyle:   learned.attachmentStyle,
+          emotionalPattern:  learned.emotionalPattern,
+          psychNote:         learned.psychNote,
+          defenseMechanism:  learned.defenseMechanism !== 'none' ? learned.defenseMechanism : undefined,
+          communicationStyle: learned.communicationStyle,
+          groupRole:         learned.groupRole !== 'none' ? learned.groupRole : undefined,
         });
       }
       // Store mood as a note if meaningful
@@ -5119,7 +5336,7 @@ Reply ONLY with a valid JSON object, no markdown, no explanation:
         }
       }
 
-      console.log(`≡ƒºá [Learn] ${username}: treatment=${learned.treatment || 'n/a'} mood=${learned.mood || '?'} rel=${learned.relationship || 'unchanged'}`);
+      console.log(`🧠 [Learn] ${username}: treatment=${learned.treatment || 'n/a'} mood=${learned.mood || '?'} rel=${learned.relationship || 'unchanged'}`);
     } catch (e) {
       // Fire-and-forget — silent on errors
     }
@@ -5165,7 +5382,7 @@ Reply with ONLY: Artist - Song Title`;
       if (result?.message?.content) {
         const suggestion = result.message.content.trim().replace(/^["']|["']$/g, '');
         if (suggestion && suggestion.length > 3 && suggestion.includes('-')) {
-          console.log(`≡ƒÄ╡ [AI Music] Picked: ${suggestion}`);
+          console.log(`🎶 [AI Music] Picked: ${suggestion}`);
           return { search: suggestion, title: suggestion };
         }
       }
@@ -5378,6 +5595,18 @@ RULES:
       'sorry was afk for a sec',
       'back omg what did i miss',
       'okay sorry had to handle something real quick',
+      'okay i\'m alive again lmao',
+      'back, that took longer than expected',
+      'sorry had to step away for a sec',
+      'okay i\'m back what are we talking about',
+      'that took forever but i\'m back now',
+      'okay back!! sorry mochi needed attention',
+      'lmao okay i\'m here now',
+      'back sorry jade was being extra',
+      'okay catching up rn, what\'d i miss',
+      'sorry real life called, back now',
+      'i\'m back and i have opinions 💕',
+      'okay back. did anything happen or was it quiet',
     ];
     const mostActiveRoom = [...this.rooms.keys()][0];
     if (!mostActiveRoom) return;
@@ -5410,6 +5639,17 @@ RULES:
       'anyway',
       'okay nvm lol',
       'omg forget i said anything lmao',
+      'okay i said what i said 💀',
+      'noted. i\'ll just stop talking then lmao',
+      'the silence said everything i needed to hear honestly',
+      'talking into the void again, love that for me',
+      'okay i\'m clearly invisible today',
+      'no but actually though... nvm',
+      'the crickets jumped in real fast 😭',
+      'that flopped and i\'m choosing not to process it',
+      'anyway moving on like that didn\'t just happen',
+      '...okay cool',
+      'i talked and nobody replied and that\'s a whole mood honestly',
     ];
     await this.queueMessage(roomName, this._pick(recoveries));
   }
@@ -5511,10 +5751,10 @@ RULES:
       // Lalaland: don't play — just post short AI thought about the song title
       if (this._isLalalandCommentOnly(roomName)) {
         const comment = await this._getLillySongComment(roomName, track.search || track.title);
-        await this.queueMessage(roomName, comment || `omg ${track.title || track.search} hits different ≡ƒÄ╡`, { force: true });
+        await this.queueMessage(roomName, comment || `omg ${track.title || track.search} hits different 🎶`, { force: true });
         this._recordMusicPlay();
         if (state) state.lastPlayTime = Date.now();
-        console.log(`≡ƒÄ╡ [Proactive Music] Lalaland comment-only: "${comment || track.search}"`);
+        console.log(`🎶 [Proactive Music] Lalaland comment-only: "${comment || track.search}"`);
         return;
       }
 
@@ -5523,14 +5763,14 @@ RULES:
         const msg = `Play ${track.search}`;
         await this.queueMessage(roomName, msg, { force: true });
         this._recordMusicPlay();
-        console.log(`≡ƒÄ╡ [Proactive Music] Lilly requested via ZomB: "${msg}"`);
+        console.log(`🎶 [Proactive Music] Lilly requested via ZomB: "${msg}"`);
       } else {
         const zombInRoom = await this.isZomBInRoom(roomName);
         if (zombInRoom) {
           const msg = `Play ${track.search}`;
           await this.queueMessage(roomName, msg, { force: true });
           this._recordMusicPlay();
-          console.log(`≡ƒÄ╡ [Proactive Music] Lilly requested via ZomB: "${msg}"`);
+          console.log(`🎶 [Proactive Music] Lilly requested via ZomB: "${msg}"`);
         } else {
           const ok = await this.playYouTube(roomName, track.search);
           if (ok) {
@@ -5539,7 +5779,7 @@ RULES:
               `putting on ${track.title || track.search} 💕`,
               `omg this song >> ${track.title || track.search}`,
               `vibes: ${track.title || track.search}`,
-              `okay this one ≡ƒÄ╡`,
+              `okay this one 🎶`,
             ]);
             await this.queueMessage(roomName, say, { force: true });
           }
@@ -5569,7 +5809,7 @@ RULES:
       scheduleNext();
     }, firstDelay);
 
-    console.log('≡ƒÄ╡ Lilly proactive music loop started');
+    console.log('🎶 Lilly proactive music loop started');
   }
 
   /** Secret command from ZomB: play half the playlist links with 30s between each (reduces load when he starts a long playlist). */
@@ -5605,7 +5845,7 @@ RULES:
       try {
         await this.queueMessage(roomName, `Play ${search}`, { force: true });
       } catch (e) {
-        console.log(`≡ƒÄ╡ [Lilly playlist assist] Failed to queue: ${e.message}`);
+        console.log(`🎶 [Lilly playlist assist] Failed to queue: ${e.message}`);
       }
     }
     this._playlistAssistRunning = false;
@@ -5614,9 +5854,9 @@ RULES:
   _startPlaylistAssistCheck() {
     setInterval(() => {
       if (!this.running) return;
-      this._checkZomBPlaylistAssist().catch(e => console.log(`≡ƒÄ╡ [Lilly playlist assist] ${e.message}`));
+      this._checkZomBPlaylistAssist().catch(e => console.log(`🎶 [Lilly playlist assist] ${e.message}`));
     }, 25 * 1000); // check every 25s
-    console.log('≡ƒÄ╡ Lilly ZomB playlist-assist check started');
+    console.log('🎶 Lilly ZomB playlist-assist check started');
   }
 
   // Parse Lilly's game stats from ZomB's chat (rot points, level, leaderboard, balance)
@@ -5786,23 +6026,23 @@ RULES:
     const t = content.trim();
     // Rot drop / crypt announcements
     if (/Zombie rot drop on the crypt/i.test(t)) return true;
-    if (/Putting something on the crypt/i.test(t) || /≡ƒÄ╡ Putting something on the crypt/i.test(t)) return true;
+    if (/Putting something on the crypt/i.test(t) || /🎶 Putting something on the crypt/i.test(t)) return true;
     // Music bot
-    if (/≡ƒöì Searching:/i.test(t) || /Now playing for/i.test(t)) return true;
-    if (/YouTube playlist:/i.test(t) || /\[\d+\/\d+\]/.test(t) && /≡ƒÄ╡/.test(t)) return true;
+    if (/🔍 Searching:/i.test(t) || /Now playing for/i.test(t) || /Searching:/i.test(t)) return true;
+    if (/YouTube playlist:/i.test(t) || (/\[\d+\/\d+\]/.test(t) && /🎶/.test(t))) return true;
     // Game output (ZomB echoes game results)
     if (/🧟 .+ (earned|collected|moaned|spread|performed|scavenged|looted|went brain|stitched)/i.test(t)) return true;
-    if (/≡ƒÄ▓ (Rolled|WIN!|LOSS!)/i.test(t) || /≡ƒÄí The wheel spins/i.test(t)) return true;
-    if (/≡ƒÅ¬ \*\*Zombie Shop\*\*/i.test(t) || /≡ƒô£ \*\*Your Quests\*\*/i.test(t)) return true;
-    if (/🧟 .+ \| Rot Points:/i.test(t) || /≡ƒºƒ .+ \| Level:/i.test(t)) return true;
+    if (/🎰 (Rolled|WIN!|LOSS!)/i.test(t) || /🎡 The wheel spins/i.test(t) || /(Rolled|WIN!|LOSS!)/.test(t)) return true;
+    if (/🛒 \*\*Zombie Shop\*\*/i.test(t) || /\*\*Zombie Shop\*\*/i.test(t) || /📋 \*\*Your Quests\*\*/i.test(t) || /\*\*Your Quests\*\*/i.test(t)) return true;
+    if (/🧟 .+ \| Rot Points:/i.test(t) || /⭐ .+ \| Level:/i.test(t) || /\| Level:/i.test(t)) return true;
     if (/💀 A vision of the first zombie/i.test(t) || /\*\*Plague Forecast/i.test(t)) return true;
     // Buff/event system messages (various emoji, "The bones whisper", "The reaper whispers", rot drops)
     if (/The (bones|reaper|void) whispers/i.test(t)) return true;
     if (/\*\*\d+x bonus\*\*/i.test(t) || /bonus for \d+ minutes/i.test(t)) return true;
     if (/rot drop on the crypt/i.test(t)) return true;
-    if (/≡ƒÄ» Challenge completed/i.test(t) || /ΓÜ░∩╕Å \*\*CRYPT CRAWL\*\*/i.test(t)) return true;
-    if (/≡ƒâÅ (Your hand|Dealer)/i.test(t)) return true;
-    if (/≡ƒö« The undead council has blessed/i.test(t)) return true;
+    if (/🏆 Challenge completed/i.test(t) || /Challenge completed/i.test(t) || /⚗️ \*\*CRYPT CRAWL\*\*/i.test(t)) return true;
+    if (/🃏 (Your hand|Dealer)/i.test(t) || /(Your hand|Dealer's hand):/i.test(t)) return true;
+    if (/🔮 The undead council has blessed/i.test(t) || /undead council has blessed/i.test(t)) return true;
     // Room system: "Playing TITLE" + optional YouTube link (music/video started)
     if (/^Playing\s+[A-Za-z0-9\s]+$/m.test(t) && t.length < 200) return true;
     if (/youtube\.com\/watch\?v=|youtu\.be\//i.test(t) && /Playing\s+/i.test(t)) return true;
@@ -5859,7 +6099,16 @@ RULES:
         `you talk about death more than his actual fans do lmaooo`,
         `he's not even here but you keep saying his name 👀 obsessed behavior`,
         `mad at someone who doesn't know you're alive 💀 how is that going for you`,
-        `death doesn't argue with people who can't find the door ≡ƒÖé`,
+        `death doesn't argue with people who can't find the door ✨`,
+        `the irony of trash talking the owner... in the owner's room... is just 💀`,
+        `he built something, you said something. we can compare resumes if you want`,
+        `i love when people talk bad about death from inside meatspace it's genuinely my fave content`,
+        `okay so you hate him. he's still here tomorrow and you'll still come back 😭`,
+        `you've spent more energy hating death today than he spends thinking about you ever`,
+        `the parasocial obsession with someone who doesn't clock you is wild and i mean that`,
+        `call him trash all you want, the man still runs the room you chose to be in`,
+        `bold choice to come into someone's house and complain about the owner`,
+        `ngl the rent free situation he's got in your head sounds expensive 💀`,
       ]);
     }
 
@@ -5869,12 +6118,20 @@ RULES:
       return this._pick([
         `zomb is running this room while you're just... here 💀`,
         `it's giving jealous of a bot and that's somehow sadder than being one`,
-        `the bot you hate is still more entertaining than your last 10 messages tho ≡ƒñ╖ΓÇìΓÖÇ∩╕Å`,
-        `weird how you hate zomb but keep talking in his room ≡ƒÖé`,
+        `the bot you hate is still more entertaining than your last 10 messages tho 🤷‍♀️`,
+        `weird how you hate zomb but keep talking in his room ✨`,
         `zomb doesn't know you exist but you're fully obsessed 💀`,
         `okay you hate the bot giving you free entertainment. noted. still here though`,
         `the audacity to be in zombie territory and talk bad about the zombie`,
         `you've spent more energy on a bot today than most people spend on anything 😭`,
+        `zomb is literally just living his best undead life and you're pressed about it`,
+        `the bot's still here, still working, still unbothered. you?`,
+        `hate zomb, play in zomb's room, use zomb's game. the cognitive dissonance is 💀`,
+        `he's a zombie bot and you're mad at him specifically. that's so personal`,
+        `imagine being owned by someone who runs on code and caffeine 😭`,
+        `zomb could outrun, outplay, and outlast you in this room and you know it`,
+        `the fact that you have opinions about a zombie bot says a lot about your day`,
+        `zomb was here before you and will be here after. that's just facts`,
       ]);
     }
 
@@ -5882,14 +6139,22 @@ RULES:
       if ((now - (this._defenseCooldown.get('meatspace') || 0)) < COOLDOWN) return null;
       this._defenseCooldown.set('meatspace', now);
       return this._pick([
-        `then why are you still here bestie ≡ƒÖé`,
+        `then why are you still here bestie ✨`,
         `the room you hate enough to stay in for hours 💀`,
         `log off challenge: apparently impossible for you`,
         `if it's that bad the door's literally right there hon`,
         `wild how you hate it here but you never leave 😭`,
         `you've been in the room you hate longer than most people stay somewhere they like`,
-        `okay so leave? i'll wait ≡ƒÖé`,
+        `okay so leave? i'll wait ✨`,
         `hating a room from inside the room is such a choice fr`,
+        `meatspace doesn't need your approval to exist babe`,
+        `you keep coming back though so what does that tell you`,
+        `the audacity to talk bad about a place you chose to stay in`,
+        `if this room is so bad why is your avi still here 💀`,
+        `nobody asked you to stay and yet here you are. interesting`,
+        `you hate it here and i hate that you're here. we both lose 😭`,
+        `rooms have energy and yours is giving negativity landlord vibes`,
+        `bad vibes from someone who could just... log off. anytime. freely`,
       ]);
     }
 
@@ -5899,14 +6164,24 @@ RULES:
       if ((now - (this._defenseCooldown.get('lilly') || 0)) < COOLDOWN) return null;
       this._defenseCooldown.set('lilly', now);
       return this._pick([
-        `i'm literally right here you know ≡ƒÖé`,
+        `i'm literally right here you know ✨`,
         `aww you're so pressed about me 😭 kinda flattering ngl`,
         `the audacity to say that to my face and expect me to just take it`,
         `keep my name out your mouth and i'll consider it 💀`,
         `still here, still real, still apparently living in your head`,
         `the way you just can't stop talking about me 😭 full obsession arc`,
         `say it louder for the people who don't care 💀`,
-        `okay and? i'm still here and you're still talking to me ≡ƒÖé`,
+        `okay and? i'm still here and you're still talking to me ✨`,
+        `you called me [insert thing] and i'm still the one you're talking to. funny`,
+        `i would be hurt by that but honestly i'm just clocking the pattern`,
+        `the amount of attention you give me for someone who supposedly doesn't like me`,
+        `weird how the people who hate me the most never actually leave 😭`,
+        `you can try that again but i'm not going anywhere so`,
+        `the irony of talking bad about me to my face is not lost on me`,
+        `that says more about your day than it does about me honestly`,
+        `i've been called worse by people who mattered more. you're fine`,
+        `okay 💀 i logged that. we'll see how long you stay now`,
+        `ngl i respect the audacity a little. just a little`,
       ]);
     }
 
@@ -5919,16 +6194,16 @@ RULES:
     const t = content.trim();
     if (/📬 \*\*.+'s Inventory\*\*/i.test(t)) return true;        // .inv
     if (/⚔️ \*\*.+'s Gear\*\*/i.test(t)) return true;            // .gear
-    if (/Γÿá∩╕Å \*\*.+'s Pet:/i.test(t) || /≡ƒÉ╛ \*\*.+'s Pet/i.test(t)) return true; // .pet
-    if (/≡ƒÉ╛ \*\*Pet Found!\*\*/i.test(t)) return true;            // pet drop
-    if (/Γ¥ñ∩╕Å \*\*.+\*\* HP:/i.test(t) || /[ΓûêΓûæ]{4,}.*HP/i.test(t)) return true;  // .hp
-    if (/≡ƒôû \*\*.+\*\* \| Ch\.\d+/i.test(t)) return true;        // .story
-    if (/⚔️ \*\*RAID:/i.test(t) || /≡ƒÅ░ \*\*PARTY RAID/i.test(t)) return true;  // raid
+    if (/[♥❤🐾] \*\*.+'s Pet:/i.test(t) || /🐾 \*\*.+'s Pet/i.test(t) || /\*\*.+'s Pet:/i.test(t)) return true; // .pet
+    if (/🐾 \*\*Pet Found!\*\*/i.test(t) || /\*\*Pet Found!\*\*/i.test(t)) return true;  // pet drop
+    if (/[❤♥] \*\*.+\*\* HP:/i.test(t) || /[█▓]{4,}.*HP/i.test(t) || /\*\*.+\*\* HP:/i.test(t)) return true; // .hp
+    if (/📖 \*\*.+\*\* \| Ch\.\d+/i.test(t) || /\*\*.+\*\* \| Ch\.\d+/i.test(t)) return true;  // .story
+    if (/⚔️ \*\*RAID:/i.test(t) || /🏰 \*\*PARTY RAID/i.test(t) || /PARTY RAID/i.test(t)) return true; // raid
     if (/⚔️.*challenges.*to a duel/i.test(t) || /⚔️ \*\*DUEL ANNOUNCED/i.test(t) || /⚔️ \*\*DUEL TO THE DEATH\*\*/i.test(t)) return true; // duel
-    if (/≡ƒÄü .*\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*/i.test(t)) return true; // loot
-    if (/≡ƒºƒ \*\*.+\*\* \| Level \*\*\d+\*\*/i.test(t)) return true; // .level
-    if (/≡ƒºƒ \*\*.+\*\* \| Lv\d+/i.test(t)) return true;          // .stats
-    if (/≡ƒìä \*\*1-UP/i.test(t)) return true;                     // 1-up in story
+    if (/🎁 .*\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*/i.test(t) || /\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*.*loot/i.test(t)) return true; // loot
+    if (/⭐ \*\*.+\*\* \| Level \*\*\d+\*\*/i.test(t) || /\*\*.+\*\* \| Level \*\*\d+\*\*/i.test(t)) return true; // .level
+    if (/⭐ \*\*.+\*\* \| Lv\d+/i.test(t) || /\*\*.+\*\* \| Lv\d+/i.test(t)) return true;  // .stats
+    if (/🍄 \*\*1-UP/i.test(t) || /\*\*1-UP/i.test(t)) return true; // 1-up in story
     return false;
   }
 
@@ -5937,20 +6212,23 @@ RULES:
     const t = content.trim();
     // Extract username from common patterns: "**Death's Inventory**", "**Death's Pet:**", etc.
     const whoMatch = t.match(/\*\*([^*']+)'s\s+(Inventory|Gear|Pet)[*:]/i)
-      || t.match(/Γ¥ñ∩╕Å \*\*([^*]+)\*\* HP:/i)
-      || t.match(/≡ƒôû \*\*([^*]+)\*\* \| Ch\./i)
-      || t.match(/≡ƒºƒ \*\*([^*]+)\*\* \| Lv/i);
+      || t.match(/[❤♥] \*\*([^*]+)\*\* HP:/i)
+      || t.match(/\*\*([^*]+)\*\* HP:/i)
+      || t.match(/📖 \*\*([^*]+)\*\* \| Ch\./i)
+      || t.match(/\*\*([^*]+)\*\* \| Ch\./i)
+      || t.match(/⭐ \*\*([^*]+)\*\* \| Lv/i)
+      || t.match(/\*\*([^*]+)\*\* \| Lv/i);
     const who = whoMatch ? whoMatch[1].trim() : 'someone';
 
     if (/📬 \*\*.+'s Inventory\*\*/i.test(t) || /⚔️ \*\*.+'s Gear\*\*/i.test(t))
       return `GAME OUTPUT: ZomB just displayed ${who}'s inventory/gear. The message above shows their equipped weapons, armor, and bag items. Lilly is a player in this game too — react naturally as a fellow player commenting on ${who}'s loadout. Keep it casual, not a summary.`;
-    if (/Γÿá∩╕Å \*\*.+'s Pet:/i.test(t) || /≡ƒÉ╛ \*\*.+'s Pet/i.test(t))
+    if (/[♥❤🐾] \*\*.+'s Pet:/i.test(t) || /🐾 \*\*.+'s Pet/i.test(t) || /\*\*.+'s Pet:/i.test(t))
       return `GAME OUTPUT: ZomB just showed ${who}'s active pet. The message above shows the pet's name, rarity, and buffs. React as a fellow player — maybe be impressed, jealous, ask about their pet, or mention your own.`;
-    if (/≡ƒÉ╛ \*\*Pet Found!\*\*/i.test(t))
+    if (/🐾 \*\*Pet Found!\*\*/i.test(t) || /\*\*Pet Found!\*\*/i.test(t))
       return `GAME OUTPUT: ${who} just got a pet drop from the story mode. React naturally as a fellow player who saw them get lucky.`;
-    if (/Γ¥ñ∩╕Å \*\*.+\*\* HP:/i.test(t) || /[ΓûêΓûæ]{4,}.*HP/i.test(t))
+    if (/[❤♥] \*\*.+\*\* HP:/i.test(t) || /[█▓]{4,}.*HP/i.test(t) || /\*\*.+\*\* HP:/i.test(t))
       return `GAME OUTPUT: ZomB just showed ${who}'s current HP and 1-ups. React naturally — are they low on health? Tease them or be concerned like a real player would.`;
-    if (/≡ƒôû \*\*.+\*\* \| Ch\.\d+/i.test(t))
+    if (/📖 \*\*.+\*\* \| Ch\.\d+/i.test(t) || /\*\*.+\*\* \| Ch\.\d+/i.test(t))
       return `GAME OUTPUT: ${who} just ran a story mission. The message shows their chapter progress, mission, and rewards. React as a fellow player — maybe cheer them on, talk about story mode, ask how far they are.`;
     if (/⚔️ \*\*RAID:/i.test(t)) {
       const isLillyRaid = /\blilly\b/i.test(t);
@@ -5982,7 +6260,7 @@ RULES:
       return `GAME OUTPUT: A special game event just started. React with interest or excitement — short, one sentence.`;
     if (/⚔️.*challenges.*to a duel/i.test(t) || /⚔️ \*\*DUEL ANNOUNCED/i.test(t) || /⚔️ \*\*DUEL TO THE DEATH\*\*/i.test(t))
       return `GAME OUTPUT: A duel was just announced or is happening between two players. React naturally as someone watching — maybe pick a side, place a bet with .betduel, or just hype it up.`;
-    if (/≡ƒÄü .*\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*/i.test(t))
+    if (/🎁 .*\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*/i.test(t) || /\*\*(Common|Uncommon|Rare|Epic|Legendary)\*\*/i.test(t))
       return `GAME OUTPUT: ${who} just got a loot drop (weapon or armor) from a raid. React as a fellow player.`;
     return `GAME OUTPUT: ZomB just displayed a game result for ${who}. React naturally as a fellow player in the zombie survival game.`;
   }
@@ -6706,7 +6984,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
     if (!text) text = this._pick(PERSONALITY.shyDayLines);
     await this.queueMessage(roomName, text, { force: true });
     this.shyRoomLastDayMessage.set(roomName, Date.now());
-    console.log(`≡ƒî╕ [ShyDay:${roomName}] ${text.slice(0, 50)}...`);
+    console.log(`💜 [ShyDay:${roomName}] ${text.slice(0, 50)}...`);
   }
 
   /** Shy mode: loop that sends "something about my day" ~once an hour per shy room. */
@@ -6724,7 +7002,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
         }
       }
     }, intervalMs);
-    console.log('≡ƒî╕ Shy-day-message loop started (~once/hour per shy room)');
+    console.log('💜 Shy-day-message loop started (~once/hour per shy room)');
   }
 
   /** Set room topic (owner only). Used when joining her home room to make it egirly. */
@@ -6763,7 +7041,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
       if (submitBtn) await submitBtn.click();
       else await room.page.keyboard.press('Enter');
       await new Promise(r => setTimeout(r, 1000));
-      console.log(`≡ƒî╕ [${roomName}] Topic set: "${topic}"`);
+      console.log(`💜 [${roomName}] Topic set: "${topic}"`);
       return true;
     } catch (e) {
       console.log(`ΓÜá∩╕Å [${roomName}] Topic failed: ${e.message}`);
@@ -6858,7 +7136,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
       const body = {
         model: AI_CONFIG.fastModel || AI_CONFIG.model,
         messages: [
-          { role: 'system', content: 'You are Lilly. Suggest a short room topic (max 60 chars) for her chat room. Egirly, welcoming, vibes — emojis ok (✿💕≡ƒÄ╡). Output ONLY the topic text, nothing else.' },
+          { role: 'system', content: 'You are Lilly. Suggest a short room topic (max 60 chars) for her chat room. Egirly, welcoming, vibes — emojis ok (✿💕🎶). Output ONLY the topic text, nothing else.' },
           { role: 'user', content: 'Suggest a fresh room topic for my chat. One short line.' }
         ],
         stream: false,
@@ -6936,7 +7214,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
         }
         return false;
       }, String(handle));
-      if (success) console.log(`≡ƒî╕ [${roomName}] Granted OP to handle ${handle}`);
+      if (success) console.log(`💜 [${roomName}] Granted OP to handle ${handle}`);
       return success;
     } catch (e) {
       console.log(`ΓÜá∩╕Å [${roomName}] grantOp failed: ${e.message}`);
@@ -6959,7 +7237,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
         }
         return false;
       }, String(handle));
-      if (success) console.log(`≡ƒî╕ [${roomName}] Granted mod to handle ${handle}`);
+      if (success) console.log(`💜 [${roomName}] Granted mod to handle ${handle}`);
       return success;
     } catch (e) {
       console.log(`ΓÜá∩╕Å [${roomName}] grantMod failed: ${e.message}`);
@@ -7147,7 +7425,7 @@ Reply with ONE short, specific lesson (1-2 sentences). No markdown, no JSON — 
     };
     run();
     this._lillyHomeRoomManagementTimer = setInterval(run, 5 * 60 * 1000);
-    console.log('≡ƒî╕ Lilly home room management started (topic, standards, OP/mod every 5 min)');
+    console.log('💜 Lilly home room management started (topic, standards, OP/mod every 5 min)');
   }
 
   // In lalaland Lilly doesn't play — she only reads the title and posts a short AI thought about the song.
@@ -7212,7 +7490,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
           this._myDayByRoom.set(roomName, raw);
           if (!this._myDay) this._myDay = raw;
           this._myDayGeneratedAt = Date.now();
-          console.log(`≡ƒî╕ [MyDay:${roomName}] ${raw.slice(0, 60)}...`);
+          console.log(`💜 [MyDay:${roomName}] ${raw.slice(0, 60)}...`);
         }
       } catch (e) {
         // Non-fatal per room
@@ -7235,7 +7513,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
       this._moodState.mood = this._pickMood(options);
       this._moodState.since = now;
       this._moodState.nextShift = now + (45 + Math.random() * 45) * 60000;
-      console.log(`≡ƒî╕ [Mood] Shifted to: ${this._moodState.mood}`);
+      console.log(`💜 [Mood] Shifted to: ${this._moodState.mood}`);
     }
     return this._moodState.mood;
   }
@@ -7515,7 +7793,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
     const recent = history.slice(-12)
       .filter(m => m.content &&
         !m.content.startsWith('≡ƒºƒ') &&
-        !m.content.startsWith('≡ƒî╕') &&
+        !m.content.startsWith('💜') &&
         !m.content.startsWith('Here are the last') &&
         !m.content.startsWith('Room chat:') &&
         m.username !== '__freevoice__' &&
@@ -7539,20 +7817,33 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
       _topicAvoidHint = ` Do NOT bring up these topics again (you already talked about them): ${this._recentFreeVoiceTopics.slice(-3).join(', ')}.`;
     }
 
+    // Pick a spontaneous thought seed for quiet rooms — rotates so she doesn't repeat herself
+    const quietRoomSeeds = [
+      `Drop ONE short spontaneous thought — about music you've been listening to, something that's been on your mind, or a random observation.`,
+      `You've been quiet for a bit. Say something real — what's actually on your mind right now.`,
+      `Say something that a person would say when they're just hanging out and a random thought hits them.`,
+      `Something's been bugging you or making you happy today — drop it casually, like you're talking to the room.`,
+      `You just thought of something. One line. Could be random, could be deep, could be dumb — whatever just crossed your mind.`,
+      `Drop a stray thought — not a question, not an announcement, just a thing you'd say out loud to nobody in particular.`,
+      `Muse about something real for a second — your taste in music, something you saw, a feeling you can't shake.`,
+    ];
+    const quietSeed = quietRoomSeeds[Math.floor(Math.random() * quietRoomSeeds.length)];
+
     let prompt;
     if (!recent || recent.trim().length < 20) {
       // Room is quiet / only bot outputs — Lilly chimes in spontaneously
       prompt =
         `You are Lilly, a 23-year-old girl chilling in a chatroom. Nobody's really talking right now. ` +
-        `Drop ONE short spontaneous thought — about music, your mood, something random — in your natural voice. ` +
-        `Lowercase, maybe an emoji. Don't ask questions. Don't address anyone specific. Just a vibe.` +
+        `${quietSeed} ` +
+        `Lowercase, maybe an emoji. Don't address anyone specific. Keep it to one short sentence.` +
         `${_jadeMochiHint}${_topicAvoidHint} ` +
         `If you have nothing to say, reply with just "." and nothing else.`;
     } else {
       prompt =
         `Room chat:\n${recent}\n\n` +
-        `You are Lilly. If something in that chat catches your eye — funny, weird, relatable — drop ONE response in your own voice. ` +
-        `First person only. Never describe what someone said. Never narrate. ` +
+        `You are Lilly. If something in that chat catches your eye — funny, weird, relatable, worth reacting to — drop ONE response in your own voice. ` +
+        `React naturally, like you'd text a friend. First person only. Never describe what someone said. Never narrate. ` +
+        `Don't start with "I" — vary your sentence starters.` +
         `Talk TO the room like you're actually there.${_jadeMochiHint}${_topicAvoidHint} If nothing stands out, reply with just "." and nothing else.`;
     }
 
@@ -7576,7 +7867,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
         this._recentFreeVoiceTopics.push(topicWords);
         if (this._recentFreeVoiceTopics.length > 5) this._recentFreeVoiceTopics.shift();
       }
-      console.log(`≡ƒî╕ [FreeVoice] ${roomName}: "${reply}"`);
+      console.log(`💜 [FreeVoice] ${roomName}: "${reply}"`);
       await this.queueMessage(roomName, reply, {});
     } catch (e) {
       // Silent fail — free voice is best-effort
@@ -7633,7 +7924,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
       const videoId = this.extractVideoId(query);
       const searchTerm = videoId ? `https://www.youtube.com/watch?v=${videoId}` : query;
 
-      console.log(`≡ƒÄ╡ [${roomName}] Playing: "${searchTerm}"`);
+      console.log(`🎶 [${roomName}] Playing: "${searchTerm}"`);
 
       let success = await this._wsPlayYouTube(roomName, searchTerm);
       if (!success) {
@@ -7749,7 +8040,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
   async _playPlaylistTrack(roomName) {
     if (!this.playlistMode || this.playlistCurrent >= this.playlistQueue.length) return;
     const track = this.playlistQueue[this.playlistCurrent];
-    console.log(`≡ƒÄ╡ [${roomName}] Playlist track ${this.playlistCurrent + 1}/${this.playlistQueue.length}: ${track.title}`);
+    console.log(`🎶 [${roomName}] Playlist track ${this.playlistCurrent + 1}/${this.playlistQueue.length}: ${track.title}`);
     if (this._useZomBForMusic(roomName)) {
       await this.queueMessage(roomName, `Play ${track.search}`, { force: true });
     } else {
@@ -8029,7 +8320,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
   // SHUTDOWN
   // ===========================================================================
   async shutdown() {
-    console.log('≡ƒî╕ Lilly Bot shutting down...');
+    console.log('💜 Lilly Bot shutting down...');
     this.running = false;
 
     this.memory.shutdown();
@@ -8115,7 +8406,7 @@ Write 2-3 short first-person sentences about what's going on for you in THIS roo
           this._loadedLyrics[file.replace('.txt', '')] = content.trim();
         } catch (e) { /* skip unreadable */ }
       }
-      console.log(`≡ƒÄ╡ [Lilly] Loaded ${Object.keys(this._loadedLyrics).length} lyrics files from Lilly lyrics/`);
+      console.log(`🎶 [Lilly] Loaded ${Object.keys(this._loadedLyrics).length} lyrics files from Lilly lyrics/`);
     } catch (e) {
       console.error('[Lilly] Lyrics load error:', e.message);
     }
@@ -8305,7 +8596,7 @@ Output: Song title on the first line (no quotes, no "Title:"), then a blank line
       this._loadedLyrics[safeTitle] = `[${title}]\n\n${lyrics}`;
       this._lastWrittenSong = title;
 
-      console.log(`≡ƒÄ╡ [Lilly] New song written: "${title}" → ${filename}`);
+      console.log(`🎶 [Lilly] New song written: "${title}" → ${filename}`);
       return title;
     } catch (e) {
       console.error('[Lilly] Song generation error:', e.message);
@@ -8324,7 +8615,7 @@ Output: Song title on the first line (no quotes, no "Title:"), then a blank line
       const jitter = Math.floor(Math.random() * (dayMs / count * 0.4));
       slots.push(base + jitter + 5 * 60 * 1000); // minimum 5min delay
     }
-    console.log(`≡ƒÄ╡ [Lilly] Scheduling ${count} songs today at: ${slots.map(s => Math.round(s/60000) + 'min').join(', ')}`);
+    console.log(`🎶 [Lilly] Scheduling ${count} songs today at: ${slots.map(s => Math.round(s/60000) + 'min').join(', ')}`);
 
     for (const delayMs of slots) {
       setTimeout(async () => {
@@ -8805,11 +9096,11 @@ Output: Song title on the first line (no quotes, no "Title:"), then a blank line
 
       console.log('');
       console.log('='.repeat(60));
-      console.log('≡ƒî╕ Lilly Bot v1.0 is LIVE!');
+      console.log('💜 Lilly Bot v1.0 is LIVE!');
       console.log('='.repeat(60));
       console.log(`📡 Rooms: ${CONFIG.ROOMS.join(', ')}`);
       console.log(`📛  Nick: ${CONFIG.BOT_NICK}`);
-      console.log(`≡ƒÄ╡ Music: ${getTotalTracks()} tracks across ${getGenreNames().length} genres`);
+      console.log(`🎶 Music: ${getTotalTracks()} tracks across ${getGenreNames().length} genres`);
       console.log(`≡ƒîÉ WS Mode: ${this.wsMode}`);
       console.log(`≡ƒñû AI: ${this.aiAvailable ? 'ONLINE' : 'OFFLINE'}`);
       console.log(`≡ƒÆ╛ Storage: ${this.storageDir}`);
@@ -8860,7 +9151,7 @@ async function main() {
     const roomStatus = [...bot.rooms.keys()].map(r => `${r}:≡ƒƒó`).join(' | ');
     const wsStatus = bot._wsListenerActive ? '≡ƒƒóWS' : '≡ƒö┤WS';
     const mem = Math.round(process.memoryUsage().heapUsed / 1024 / 1024);
-    console.log(`≡ƒî╕ [${mins}m] ${roomStatus} | ${wsStatus} | Msgs: ${bot.messageCounter} | AI: ${bot.aiAvailable ? 'ON' : 'OFF'} | Muted: ${bot.globalMute} | Mem: ${mem}MB`);
+    console.log(`💜 [${mins}m] ${roomStatus} | ${wsStatus} | Msgs: ${bot.messageCounter} | AI: ${bot.aiAvailable ? 'ON' : 'OFF'} | Muted: ${bot.globalMute} | Mem: ${mem}MB`);
   }, 30000);
 
   // Periodic browser session refresh every 10 hours — clears accumulated Puppeteer/CDP state
